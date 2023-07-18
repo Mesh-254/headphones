@@ -1,0 +1,12 @@
+ header
+{
+    display: flex;
+    border: 1px solid red;
+}
+
+header div 
+{
+    display: flex;
+    border: 1px solid green;
+    width: inherit;
+}
