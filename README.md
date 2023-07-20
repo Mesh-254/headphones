@@ -9,7 +9,7 @@
 
 # Implementation of header
     - creation of the header/hero piece
-    ![Desktop view](4a93441c93989ad7ea72.gif)
+    
 
 #  “What we do…” section
     - Creation of the “What we do…” section
