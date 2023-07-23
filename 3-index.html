@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="2-styles.css">
+    <link rel="stylesheet" href="3-styles.css">
     <link rel="icon" types="image/ico" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
 </head>
@@ -265,29 +265,30 @@
     </section>
     <!-- Start of our results section -->
 
-    <!-- Start of Contact us section -->
-    <section class="contact-us">
+  <!-- Start of Contact us section -->
+  <section class="contact-us">
 
-        <div class="form-style-8">
-            <h3 class="form-heading">
-                Contact us
-            </h3>
-            <form>
-                <input type="text" name="field1" placeholder="Name" />
-                <input type="email" name="field2" placeholder="Email" />
-                <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
-                <input type="button" value="CALL TO ACTION" />
-            </form>
-        </div>
-        <script type="text/javascript">
-            //auto expand textarea
-            function adjust_textarea(h) {
-                h.style.height = "20px";
-                h.style.height = (h.scrollHeight) + "px";
-            }
-        </script>
-    </section>
-    <!-- End of Contact us section -->
+    <div class="form-style-8">
+        <h3 class="form-heading">
+            Contact us
+        </h3>
+        <form>
+            <input type="text" name="field1" placeholder="Name" />
+            <input type="email" name="field2" placeholder="Email" />
+            <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+            <a href="#"><button class="button">CALL TO ACTION</button></a>
+                
+        </form>
+    </div>
+    <script type="text/javascript">
+        //auto expand textarea
+        function adjust_textarea(h) {
+            h.style.height = "20px";
+            h.style.height = (h.scrollHeight) + "px";
+        }
+    </script>
+</section>
+<!-- End of Contact us section -->
 
 
 

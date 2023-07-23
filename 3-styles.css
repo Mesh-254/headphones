@@ -327,6 +327,7 @@ main .section-title {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    align-items: center;
     font-size: 12px;
     margin: 6px 4px;
     cursor: pointer;
@@ -449,7 +450,6 @@ main .section-title {
 }
 
 .results-pentagons {
-    border: 2px solid #FF6565;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -470,31 +470,28 @@ main .section-title {
 }
 
 /* Contact us Section */
-
-
-
-.contact-us{
+.contact-us {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: -90px;
 }
 
-.form-style-8{
-	font-family: var(--font-family-base);
-	width: 335px;
-	padding: 30px;
+.form-style-8 {
+    font-family: var(--font-family-base);
+    max-width: 335px;
+    padding: 30px;
 }
-.form-heading{
-	background: #4D4D4D;
-	text-transform: uppercase;
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #797979;
-	font-size: 18px;
-	font-weight: 100;
-	padding: 20px;
-	margin: -30px -30px 30px -30px;
+
+.form-heading {
+    font-family: var(--font-family-base);
+    color: #071629;
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
 }
+
 .form-style-8 input[type="text"],
 .form-style-8 input[type="date"],
 .form-style-8 input[type="datetime"],
@@ -505,26 +502,31 @@ main .section-title {
 .form-style-8 input[type="url"],
 .form-style-8 input[type="password"],
 .form-style-8 textarea,
-.form-style-8 select 
-{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	outline: none;
-	display: block;
-	width: 100%;
-	padding: 7px;
-	border: none;
-	border-bottom: 1px solid #ddd;
-	background: transparent;
-	margin-bottom: 10px;
-	font: 16px Arial, Helvetica, sans-serif;
-	height: 45px;
+.form-style-8 select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid #071629;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 14px var(--font-family-base);
+    height: 45px;
+    max-width: 335px;
+    top: 28px;
+    opacity: 0.1745256632566452px;
+    
 }
-.form-style-8 textarea{
-	resize:none;
-	overflow: hidden;
+
+.form-style-8 textarea {
+    resize: none;
+    overflow: hidden;
 }
+
 /* media query on small screens */
 
 @media screen and (max-width: 480px) {
