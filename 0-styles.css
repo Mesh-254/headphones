@@ -233,26 +233,15 @@ body {
 header {
     height: auto;
     position: relative;
-    margin-top: 27.76px;
-    margin-left: 200.61px;
     z-index: 1000;
-    width: 1000px;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font: var(--font-family-title);
 }
-
-.logo {
-    width: 32.784950256347656px;
-    top: 27.763916015625px;
-    left: 200.60752868652344px;
-
-}
-
 
 .nav-menu {
     display: flex;
